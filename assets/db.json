@@ -1,0 +1,42 @@
+[
+    {
+        "id": "", 
+        "nombre": "",
+        "direccion":{
+            "partido": "", 
+            "localidad": "", 
+            "calle": ""
+        },
+        "contacto":{
+            "telefono": "", 
+            "email": "", 
+            "facebook": "", 
+            "instagram": ""
+        },        
+        "descripción": {
+            "img": "",
+            "cantidad_canchas": "",
+            "cancha_techada":"",
+            "superficie":"",
+            "luz":"",
+            "medida_cancha":{
+                "cancha_5":"",
+                "cancha_6":"",
+                "cancha_7":"",
+                "cancha_9":"",
+                "cancha_11":""
+            },
+            "extras":{
+                "grabacion_partido":"",
+                "estacionamiento":"",
+                "parrilla":"",
+                "bar":""
+            },
+            "torneos":"",
+            "precio":"",
+            "forma_pago":""
+        }
+        
+    }
+
+]
