@@ -1,11 +1,11 @@
 [
     {
-        "id": "", 
-        "nombre": "",
+        "id": "6",
+        "nombre": "Club Zeballos",
         "direccion":{
-            "partido": "", 
-            "localidad": "", 
-            "calle": ""
+            "partido": "Florencio varela", 
+            "localidad": "Zeballos", 
+            "calle": "Bulnes 50"
         },
         "contacto":{
             "telefono": "", 
@@ -14,29 +14,186 @@
             "instagram": ""
         },        
         "descripción": {
-            "img": "",
-            "cantidad_canchas": "",
-            "cancha_techada":"",
-            "superficie":"",
-            "luz":"",
+            "img": "./img/01_ClubZeballos.jpg",
+            "cantidad_canchas": "2",
+            "cancha_techada":"true",
+            "superficie":"cesped",
+            "luz":"true",
             "medida_cancha":{
-                "cancha_5":"",
-                "cancha_6":"",
+                "cancha_5":"true",
+                "cancha_6":"true",
                 "cancha_7":"",
                 "cancha_9":"",
                 "cancha_11":""
             },
             "extras":{
-                "grabacion_partido":"",
-                "estacionamiento":"",
-                "parrilla":"",
-                "bar":""
+                "grabacion_partido":"false",
+                "estacionamiento":"false",
+                "parrilla":"false",
+                "bar":"true"
             },
-            "torneos":"",
+            "torneos":"true",
+            "precio":"",
+            "forma_pago":""
+        }
+        
+    },
+    {
+        "id": "7",
+        "direccion":{
+            "partido": "Azteca Futbol", 
+            "localidad": "Florencio Varela", 
+            "calle": "Falucho 2955"
+        },
+        "contacto":{
+            "telefono": "11-3878-7755", 
+            "email": "", 
+            "facebook": "", 
+            "instagram": ""
+        },        
+        "descripción": {
+            "img": "./img/01_clubZeballos.jpg",
+            "cantidad_canchas": "3",
+            "cancha_techada":"true",
+            "superficie":"cesped sintetico",
+            "luz":"true",
+            "medida_cancha":{
+                "cancha_5":"true",
+                "cancha_6":"true",
+                "cancha_7":"",
+                "cancha_9":"",
+                "cancha_11":""
+            },
+            "extras":{
+                "grabacion_partido":"false",
+                "estacionamiento":"false",
+                "parrilla":"false",
+                "bar":"true"
+            },
+            "torneos":"true",
+            "precio":"",
+            "forma_pago":""
+        }
+        
+    },
+    {
+        "id": "8",
+        "direccion":{
+            "partido": "Napoles", 
+            "localidad": "Florencio Varela", 
+            "calle": "Eva Peron 2250"
+        },
+        "contacto":{
+            "telefono": "11-6401-2264", 
+            "email": "", 
+            "facebook": "https://www.facebook.com/Napoles-Futbol-308217619807009/", 
+            "instagram": "https://www.instagram.com/napolesco"
+        },        
+        "descripción": {
+            "img": "./img/01_Napoles.jpg",
+            "cantidad_canchas": "",
+            "cancha_techada":"true",
+            "superficie":"cesped sintetico",
+            "luz":"true",
+            "medida_cancha":{
+                "cancha_5":"true",
+                "cancha_6":"true",
+                "cancha_7":"",
+                "cancha_8":"",
+                "cancha_9":"",
+                "cancha_11":"true"
+            },
+            "extras":{
+                "grabacion_partido":"false",
+                "estacionamiento":"true",
+                "parrilla":"true",
+                "bar":"true"
+            },
+            "torneos":"true",
+            "precio":"",
+            "forma_pago":""
+        }
+        
+    },
+    {
+        "id": "9",
+        "direccion":{
+            "partido": "Fair Play", 
+            "localidad": "Florencio Varela", 
+            "calle": "Dr.Pedro Bourel 3387"
+        },
+        "contacto":{
+            "telefono": "11-6164-3887", 
+            "email": "", 
+            "facebook": "", 
+            "instagram": "https://www.instagram.com/fairplayfutbol1/?hl=es"
+        },        
+        "descripción": {
+            "img": "./img/01_fairplay.png",
+            "cantidad_canchas": "1",
+            "cancha_techada":"false",
+            "superficie":"cesped sintetico",
+            "luz":"true",
+            "medida_cancha":{
+                "cancha_5":"true",
+                "cancha_6":"",
+                "cancha_7":"",
+                "cancha_8":"",
+                "cancha_9":"",
+                "cancha_11":""
+            },
+            "extras":{
+                "grabacion_partido":"false",
+                "estacionamiento":"false",
+                "parrilla":"false",
+                "bar":"true"
+            },
+            "torneos":"false",
+            "precio":"",
+            "forma_pago":""
+        }
+        
+    },
+    {
+        "id": "10",
+        "direccion":{
+            "partido": "Complejo 12 de octubre", 
+            "localidad": "Florencio Varela", 
+            "calle": "Av. 12 de Octubre 950"
+        },
+        "contacto":{
+            "telefono": "01165198882", 
+            "email": "", 
+            "facebook": "https://www.facebook.com/Complejo-12-de-Octubre-2744931998911561/", 
+            "instagram": ""
+        },        
+        "descripción": {
+            "img": "./img/01_clubZeballos.jpg",
+            "cantidad_canchas": "2",
+            "cancha_techada":"false",
+            "superficie":"cesped sintetico",
+            "luz":"true",
+            "medida_cancha":{
+                "cancha_5":"true",
+                "cancha_6":"",
+                "cancha_7":"",
+                "cancha_8":"",
+                "cancha_9":"",
+                "cancha_11":""
+            },
+            "extras":{
+                "grabacion_partido":"true",
+                "estacionamiento":"true",
+                "parrilla":"false",
+                "bar":"true"
+            },
+            "torneos":"false",
             "precio":"",
             "forma_pago":""
         }
         
     }
+
+
 
 ]
