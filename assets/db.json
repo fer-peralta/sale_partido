@@ -1,42 +1,198 @@
 [
     {
-        "id": "", 
-        "nombre": "",
+        "id": "1", 
+        "nombre": "Planeta Gol",
         "direccion":{
-            "partido": "", 
-            "localidad": "", 
-            "calle": ""
+            "partido": "Florencio Varela", 
+            "localidad": "Florencio Varela", 
+            "calle": "Av Bombero Voluntario V. Senzabello 2080"
         },
         "contacto":{
-            "telefono": "", 
+            "telefono": "4287-7278", 
             "email": "", 
-            "facebook": "", 
-            "instagram": ""
+            "facebook": "https://www.facebook.com/planetagolfutbol5", 
+            "instagram": "https://www.instagram.com/planeta_gol_f5/"
         },        
         "descripción": {
-            "img": "",
-            "cantidad_canchas": "",
-            "cancha_techada":"",
-            "superficie":"",
-            "luz":"",
+            "img": "./img/01_planeta_gol.jpg",
+            "cantidad_canchas": "4",
+            "cancha_techada":"true",
+            "superficie":"césped sintético",
+            "luz":"true",
             "medida_cancha":{
-                "cancha_5":"",
-                "cancha_6":"",
-                "cancha_7":"",
-                "cancha_9":"",
-                "cancha_11":""
+                "cancha_5":"true",
+                "cancha_6":"true",
+                "cancha_7":"false",
+                "cancha_8":"false",
+                "cancha_9":"false",
+                "cancha_11":"false"
             },
             "extras":{
-                "grabacion_partido":"",
-                "estacionamiento":"",
-                "parrilla":"",
-                "bar":""
+                "grabacion_partido":"false",
+                "estacionamiento":"true",
+                "parrilla":"true",
+                "bar":"true"
             },
-            "torneos":"",
+            "torneos":"true",
             "precio":"",
             "forma_pago":""
-        }
-        
+        }      
+    },
+    {
+        "id": "2", 
+        "nombre": "Varela Jr",
+        "direccion":{
+            "partido": "Florencio Varela", 
+            "localidad": "Florencio Varela", 
+            "calle": "Av San Martín 127"
+        },
+        "contacto":{
+            "telefono": "4237-6276", 
+            "email": "", 
+            "facebook": "https://www.facebook.com/varela.junior.9849", 
+            "instagram": "https://www.instagram.com/varelajrfutbol/"
+        },        
+        "descripción": {
+            "img": "./img/02_varela_jr.png",
+            "cantidad_canchas": "2",
+            "cancha_techada":"true",
+            "superficie":"césped sintético",
+            "luz":"true",
+            "medida_cancha":{
+                "cancha_5":"true",
+                "cancha_6":"false",
+                "cancha_7":"false",
+                "cancha_8":"false",
+                "cancha_9":"false",
+                "cancha_11":"false"
+            },
+            "extras":{
+                "grabacion_partido":"false",
+                "estacionamiento":"false",
+                "parrilla":"false",
+                "bar":"true"
+            },
+            "torneos":"false",
+            "precio":"",
+            "forma_pago":""
+        }      
+    },
+    {
+        "id": "3", 
+        "nombre": "Il Coliseo",
+        "direccion":{
+            "partido": "Florencio Varela", 
+            "localidad": "Florencio Varela", 
+            "calle": "25 de mayo 2310"
+        },
+        "contacto":{
+            "telefono": "11-3568-0952", 
+            "email": "", 
+            "facebook": "https://www.facebook.com/il-Coliseo-Futbol-341750491086", 
+            "instagram": "https://www.instagram.com/ilcoliseofutbol5/"
+        },        
+        "descripción": {
+            "img": "./img/03_il_coliseo.jpg",
+            "cantidad_canchas": "2",
+            "cancha_techada":"true",
+            "superficie":"césped sintético",
+            "luz":"true",
+            "medida_cancha":{
+                "cancha_5":"true",
+                "cancha_6":"false",
+                "cancha_7":"false",
+                "cancha_8":"false",
+                "cancha_9":"false",
+                "cancha_11":"false"
+            },
+            "extras":{
+                "grabacion_partido":"false",
+                "estacionamiento":"false",
+                "parrilla":"false",
+                "bar":"true"
+            },
+            "torneos":"true",
+            "precio":"",
+            "forma_pago":""
+        }      
+    },
+    {
+        "id": "4", 
+        "nombre": "Stadio Multiespacio",
+        "direccion":{
+            "partido": "Florencio Varela", 
+            "localidad": "Florencio Varela", 
+            "calle": "Av San Martín 701"
+        },
+        "contacto":{
+            "telefono": "11-3236-2559", 
+            "email": "", 
+            "facebook": "https://www.facebook.com/stadiodeportes", 
+            "instagram": "https://www.instagram.com/stadiomultiespacio/"
+        },        
+        "descripción": {
+            "img": "./img/04_stadio_multiespacio",
+            "cantidad_canchas": "5",
+            "cancha_techada":"false",
+            "superficie":"césped sintético",
+            "luz":"true",
+            "medida_cancha":{
+                "cancha_5":"true",
+                "cancha_6":"true",
+                "cancha_7":"false",
+                "cancha_8":"true",
+                "cancha_9":"true",
+                "cancha_11":"false"
+            },
+            "extras":{
+                "grabacion_partido":"true",
+                "estacionamiento":"true",
+                "parrilla":"true",
+                "bar":"true"
+            },
+            "torneos":"true",
+            "precio":"",
+            "forma_pago":""
+        }      
+    },
+    {
+        "id": "5", 
+        "nombre": "Ibiza",
+        "direccion":{
+            "partido": "Florencio Varela", 
+            "localidad": "Florencio Varela", 
+            "calle": "Av San Martin 855"
+        },
+        "contacto":{
+            "telefono": "4355-2857  ", 
+            "email": "", 
+            "facebook": "https://www.facebook.com/clubibizafv", 
+            "instagram": "https://www.instagram.com/ibiza.futbol/"
+        },        
+        "descripción": {
+            "img": "./img/05_ibiza.jpg",
+            "cantidad_canchas": "1",
+            "cancha_techada":"true",
+            "superficie":"césped sintético",
+            "luz":"true",
+            "medida_cancha":{
+                "cancha_5":"true",
+                "cancha_6":"false",
+                "cancha_7":"false",
+                "cancha_8":"false",
+                "cancha_9":"false",
+                "cancha_11":"false"
+            },
+            "extras":{
+                "grabacion_partido":"false",
+                "estacionamiento":"true",
+                "parrilla":"true",
+                "bar":"true"
+            },
+            "torneos":"false",
+            "precio":"",
+            "forma_pago":""
+        }      
     }
 
 ]
