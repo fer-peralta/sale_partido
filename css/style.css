@@ -1,0 +1,33 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+/*Nav Mobile*/
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  background: #020024;
+  background: #2fff6d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 3px solid #407a47;
+  border-radius: 15px 15px 0 0; }
+  .nav_container .ul_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none; }
+    .nav_container .ul_nav .nav_items {
+      padding: 1rem; }
+      .nav_container .ul_nav .nav_items .nav_links {
+        color: white;
+        text-decoration: none;
+        border-radius: 15px 15px 0 0;
+        padding: 8px; }
+      .nav_container .ul_nav .nav_items:hover {
+        background-color: #8effa8;
+        cursor: pointer;
+        color: #000000; }

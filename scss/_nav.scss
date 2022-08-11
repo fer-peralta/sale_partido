@@ -1,0 +1,46 @@
+
+/*Nav Mobile*/
+.nav_container{
+
+  display:flex;
+  justify-content: space-around;
+  background: rgb(2,0,36);
+  background: rgb(47, 255, 109);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 3px solid #407a47;
+  border-radius: 15px 15px 0 0;
+
+    .ul_nav{
+        display: flex;
+        flex-direction:row;
+        align-items: center;  
+        list-style-type: none;
+
+        .nav_items{
+            padding: 1rem;
+
+            .nav_links{
+                color: white;
+                text-decoration: none;
+                border-radius: 15px 15px 0 0;
+                padding: 8px;
+
+            }
+
+            &:hover{
+                background-color: rgb(142, 255, 168);
+                cursor: pointer;
+                color: #000000;
+            }
+        }    
+    }
+}
+
+
+
+
+
+
+
