@@ -217,9 +217,9 @@
             "medida_cancha":{
                 "cancha_5":"true",
                 "cancha_6":"true",
-                "cancha_7":"",
-                "cancha_9":"",
-                "cancha_11":""
+                "cancha_7":"false",
+                "cancha_9":"false",
+                "cancha_11":"false"
             },
             "extras":{
                 "grabacion_partido":"false",
@@ -370,11 +370,11 @@
             "luz":"true",
             "medida_cancha":{
                 "cancha_5":"true",
-                "cancha_6":"",
-                "cancha_7":"",
-                "cancha_8":"",
-                "cancha_9":"",
-                "cancha_11":""
+                "cancha_6":"false",
+                "cancha_7":"false",
+                "cancha_8":"false",
+                "cancha_9":"false",
+                "cancha_11":"false"
             },
             "extras":{
                 "grabacion_partido":"true",
