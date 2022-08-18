@@ -1,5 +1,18 @@
 /*Nav Desktop*/
+.navDesktop{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .logo_img{
+    width: 50px;
+    height: 50px;
+    }
+    .listaNav{
+        display: flex;
+        justify-content: center;
 
+    }
+}
 /*Nav Mobile*/
 .nav_container{
 

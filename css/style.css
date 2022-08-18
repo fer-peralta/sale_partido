@@ -7,34 +7,6 @@
 a {
   text-decoration: none; }
 
-/*Nav Mobile*/
-.nav_container {
-  display: flex;
-  justify-content: space-around;
-  background: #020024;
-  background: #2fff6d;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border: 3px solid #407a47;
-  border-radius: 15px 15px 0 0; }
-  .nav_container .ul_nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style-type: none; }
-    .nav_container .ul_nav .nav_items {
-      padding: 1rem; }
-      .nav_container .ul_nav .nav_items .nav_links {
-        color: white;
-        text-decoration: none;
-        border-radius: 15px 15px 0 0;
-        padding: 8px; }
-      .nav_container .ul_nav .nav_items:hover {
-        background-color: #8effa8;
-        cursor: pointer;
-        color: #000000; }
-
 .body {
   background: #83f471;
   background-image: linear-gradient(90deg, #96ee82 0%, rgba(109, 244, 113, 0.834) 12%, #26cd66 100%); }
@@ -91,6 +63,46 @@ a {
   @media (prefers-reduced-motion: reduce) {
     .main_container .btn-donate {
       transition: linear; } }
+
+/*Nav Desktop*/
+.navDesktop {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .navDesktop .logo_img {
+    width: 50px;
+    height: 50px; }
+  .navDesktop .listaNav {
+    display: flex;
+    justify-content: center; }
+
+/*Nav Mobile*/
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  background: #020024;
+  background: #2fff6d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 3px solid #407a47;
+  border-radius: 15px 15px 0 0; }
+  .nav_container .ul_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none; }
+    .nav_container .ul_nav .nav_items {
+      padding: 1rem; }
+      .nav_container .ul_nav .nav_items .nav_links {
+        color: white;
+        text-decoration: none;
+        border-radius: 15px 15px 0 0;
+        padding: 8px; }
+      .nav_container .ul_nav .nav_items:hover {
+        background-color: #8effa8;
+        cursor: pointer;
+        color: #000000; }
 
 .contact_body {
   background-color: #1B2430; }
