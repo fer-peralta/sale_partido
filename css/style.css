@@ -7,34 +7,6 @@
 a {
   text-decoration: none; }
 
-/*Nav Mobile*/
-.nav_container {
-  display: flex;
-  justify-content: space-around;
-  background: #020024;
-  background: #2fff6d;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border: 3px solid #407a47;
-  border-radius: 15px 15px 0 0; }
-  .nav_container .ul_nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style-type: none; }
-    .nav_container .ul_nav .nav_items {
-      padding: 1rem; }
-      .nav_container .ul_nav .nav_items .nav_links {
-        color: white;
-        text-decoration: none;
-        border-radius: 15px 15px 0 0;
-        padding: 8px; }
-      .nav_container .ul_nav .nav_items:hover {
-        background-color: #8effa8;
-        cursor: pointer;
-        color: #000000; }
-
 .body {
   background: #83f471;
   background-image: linear-gradient(90deg, #96ee82 0%, rgba(109, 244, 113, 0.834) 12%, #26cd66 100%); }
@@ -92,8 +64,51 @@ a {
     .main_container .btn-donate {
       transition: linear; } }
 
+/*Nav Desktop*/
+/*Nav Mobile*/
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  background: #020024;
+  background: #03A64A;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 3px solid #407a47;
+  border-radius: 15px 15px 0 0; }
+  .nav_container .ul_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none; }
+    .nav_container .ul_nav .nav_items {
+      padding: 1rem; }
+      .nav_container .ul_nav .nav_items .nav_links {
+        color: white;
+        text-decoration: none;
+        border-radius: 15px 15px 0 0;
+        padding: 8px; }
+      .nav_container .ul_nav .nav_items:hover {
+        background-color: #8effa8;
+        cursor: pointer;
+        color: #000000; }
+
+.fields_body {
+  background-color: #024059; }
+  .fields_body main div.hero_container {
+    height: 150px; }
+    .fields_body main div.hero_container img {
+      height: 150px;
+      width: 100%;
+      object-fit: cover;
+      opacity: 0.9; }
+  .fields_body main h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #D6D5A8; }
+
 .contact_body {
-  background-color: #1B2430; }
+  background-color: #024059; }
   .contact_body div {
     height: 150px; }
     .contact_body div img {
@@ -128,3 +143,22 @@ a {
     .contact_body form textarea {
       resize: none;
       height: 170px; }
+
+.about_body {
+  background-color: #024059; }
+  .about_body main div.hero_container {
+    height: 150px; }
+    .about_body main div.hero_container img {
+      height: 150px;
+      width: 100%;
+      object-fit: cover;
+      opacity: 0.9; }
+  .about_body main h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #D6D5A8; }
+  .about_body main div p {
+    margin-top: 10px;
+    color: #D6D5A8;
+    margin-left: 3.5vh;
+    margin-right: 3.5vh; }
