@@ -81,10 +81,7 @@ a {
   display: flex;
   justify-content: space-around;
   background: #020024;
-  background: #2fff6d;
-
   background: #03A64A;
-
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -107,7 +104,6 @@ a {
         cursor: pointer;
         color: #000000; }
 
-
 .fields_body {
   background-color: #024059; }
   .fields_body main div.hero_container {
@@ -121,7 +117,34 @@ a {
     margin-top: 20px;
     text-align: center;
     color: #D6D5A8; }
-
+  .fields_body main form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px; }
+    .fields_body main form input, .fields_body main .contact_body form textarea, .contact_body .fields_body main form textarea {
+      margin-bottom: 7px;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      font-size: calc(2px + 2vh); }
+  .fields_body main div#fields_container article {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .fields_body main div#fields_container article img {
+      width: 300px;
+      height: 170px;
+      border-radius: 10px; }
+    .fields_body main div#fields_container article div.field_description {
+      margin-top: 10px; }
+      .fields_body main div#fields_container article div.field_description h3 {
+        text-align: center; }
+      .fields_body main div#fields_container article div.field_description p {
+        font-size: calc(0px + 2vh); }
 
 .contact_body {
   background-color: #024059; }
