@@ -1,7 +1,6 @@
 .about_body {
 
-    // background-color: #1B2430;
-    background-color: #024059;
+    background-color: bgcolor;
 
     main {
 
@@ -25,7 +24,7 @@
 
             margin-top: 20px;
             text-align: center;
-            color: #D6D5A8;
+            color: $main_title;
     
         }
 
@@ -34,7 +33,6 @@
             p {
 
                 margin-top: 10px;
-                color: #D6D5A8;
                 margin-left: 3.5vh;
                 margin-right: 3.5vh;
 
