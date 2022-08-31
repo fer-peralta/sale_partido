@@ -2,7 +2,8 @@
   font-family: 'Nunito', sans-serif;
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  color: #2b3537; }
 
 a {
   text-decoration: none; }
@@ -65,23 +66,11 @@ a {
       transition: linear; } }
 
 /*Nav Desktop*/
-.navDesktop {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .navDesktop .logo_img {
-    width: 50px;
-    height: 50px; }
-  .navDesktop .listaNav {
-    display: flex;
-    justify-content: center; }
-
 /*Nav Mobile*/
 .nav_container {
   display: flex;
   justify-content: space-around;
-  background: #020024;
-  background: #03A64A;
+  background-color: #0EAD69;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -94,18 +83,18 @@ a {
     list-style-type: none; }
     .nav_container .ul_nav .nav_items {
       padding: 1rem; }
-      .nav_container .ul_nav .nav_items .nav_links {
-        color: white;
+      .nav_container .ul_nav .nav_items .nav_links i {
+        color: #F8F4E3;
         text-decoration: none;
-        border-radius: 15px 15px 0 0;
-        padding: 8px; }
+        padding: 5px;
+        font-size: calc(10px + 1vh); }
       .nav_container .ul_nav .nav_items:hover {
         background-color: #8effa8;
         cursor: pointer;
         color: #000000; }
 
 .fields_body {
-  background-color: #024059; }
+  background-color: bgcolor; }
   .fields_body main div.hero_container {
     height: 150px; }
     .fields_body main div.hero_container img {
@@ -116,7 +105,8 @@ a {
   .fields_body main h1 {
     margin-top: 20px;
     text-align: center;
-    color: #D6D5A8; }
+    color: #084C61;
+    font-size: calc(24px + 1vh); }
   .fields_body main form {
     display: flex;
     flex-direction: column;
@@ -130,6 +120,12 @@ a {
       border-radius: 5px;
       padding: 5px;
       font-size: calc(2px + 2vh); }
+    .fields_body main form .btn_submit {
+      background-color: #56A3A6;
+      color: #F8F4E3;
+      font-weight: bold;
+      padding: 5px;
+      width: 100px; }
   .fields_body main div#fields_container article {
     margin-top: 35px;
     display: flex;
@@ -144,10 +140,10 @@ a {
       .fields_body main div#fields_container article div.field_description h3 {
         text-align: center; }
       .fields_body main div#fields_container article div.field_description p {
-        font-size: calc(0px + 2vh); }
+        font-size: calc(8px + 1vh); }
 
 .contact_body {
-  background-color: #024059; }
+  background-color: bgcolor; }
   .contact_body div {
     height: 150px; }
     .contact_body div img {
@@ -158,7 +154,7 @@ a {
   .contact_body h1 {
     margin-top: 20px;
     text-align: center;
-    color: #D6D5A8; }
+    color: #084C61; }
   .contact_body form {
     margin-top: 20px;
     display: flex;
@@ -175,16 +171,16 @@ a {
       border: none;
       border-radius: 5px; }
     .contact_body form input.send, .contact_body form textarea.send {
-      color: #D6D5A8;
+      color: #F8F4E3;
       font-size: calc(10px + 2vh);
-      background-color: #816797;
+      background-color: #56A3A6;
       font-weight: bold; }
     .contact_body form textarea {
       resize: none;
       height: 170px; }
 
 .about_body {
-  background-color: #024059; }
+  background-color: bgcolor; }
   .about_body main div.hero_container {
     height: 150px; }
     .about_body main div.hero_container img {
@@ -195,9 +191,8 @@ a {
   .about_body main h1 {
     margin-top: 20px;
     text-align: center;
-    color: #D6D5A8; }
+    color: #084C61; }
   .about_body main div p {
     margin-top: 10px;
-    color: #D6D5A8;
     margin-left: 3.5vh;
     margin-right: 3.5vh; }
