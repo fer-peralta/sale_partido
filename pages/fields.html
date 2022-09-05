@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script defer src="../assets/js/index.js"></script>
     <script defer src="https://kit.fontawesome.com/ac77221c7b.js" crossorigin="anonymous"></script>
     <title>Canchas</title>
@@ -28,14 +30,31 @@
         </ul>
     </nav>
     <main>
-        <div class="hero_container">
+        <!-- <div class="hero_container">
             <img src="../assets/img/pages/contact_hero.jpg" alt="hero_image">
+        </div> -->
+        <!--slider  -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img class="imgCarrousel" src="/assets/img/fondo10.png" alt=""></div>
+            <div class="swiper-slide"><img class="imgCarrousel" src="/assets/img/fondo3.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="imgCarrousel" src="/assets/img/messi.png" alt=""></div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
         </div>
         <!--slider  -->
-
-        <!--slider  -->
         <h1>Encontra tu cancha</h1>
-    </main>
 
         <form action="">
           <input type="search" placeholder="Nombre de cancha">
