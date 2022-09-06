@@ -14,7 +14,7 @@
             "instagram": "https://www.instagram.com/planeta_gol_f5/"
         },        
         "descripción": {
-            "img": "./img/01_planeta_gol.jpg",
+            "img": "../assets/img/01_planeta_gol.jpg",
             "cantidad_canchas": "4",
             "cancha_techada":"true",
             "superficie":"césped sintético",
@@ -53,7 +53,7 @@
             "instagram": "https://www.instagram.com/varelajrfutbol/"
         },        
         "descripción": {
-            "img": "./img/02_varela_jr.png",
+            "img": "../assets/img/02_varela_jr.png",
             "cantidad_canchas": "2",
             "cancha_techada":"true",
             "superficie":"césped sintético",
@@ -92,7 +92,7 @@
             "instagram": "https://www.instagram.com/ilcoliseofutbol5/"
         },        
         "descripción": {
-            "img": "./img/03_il_coliseo.jpg",
+            "img": "../assets/img/03_il_coliseo.jpg",
             "cantidad_canchas": "2",
             "cancha_techada":"true",
             "superficie":"césped sintético",
@@ -131,7 +131,7 @@
             "instagram": "https://www.instagram.com/stadiomultiespacio/"
         },        
         "descripción": {
-            "img": "./img/04_stadio_multiespacio",
+            "img": "../assets/img/04_stadio_multiespacio",
             "cantidad_canchas": "5",
             "cancha_techada":"false",
             "superficie":"césped sintético",
@@ -170,7 +170,7 @@
             "instagram": "https://www.instagram.com/ibiza.futbol/"
         },        
         "descripción": {
-            "img": "./img/05_ibiza.jpg",
+            "img": "../assets/img/05_ibiza.jpg",
             "cantidad_canchas": "1",
             "cancha_techada":"true",
             "superficie":"césped sintético",
@@ -209,7 +209,7 @@
             "instagram": ""
         },        
         "descripción": {
-            "img": "./img/01_ClubZeballos.jpg",
+            "img": "../assets/img/01_ClubZeballos.jpg",
             "cantidad_canchas": "2",
             "cancha_techada":"true",
             "superficie":"cesped",
@@ -235,8 +235,9 @@
     },
     {
         "id": "7",
+        "nombre": "Azteca Futbol",
         "direccion":{
-            "partido": "Azteca Futbol", 
+            "partido": "Florencio Varela", 
             "localidad": "Florencio Varela", 
             "calle": "Falucho 2955"
         },
@@ -247,7 +248,7 @@
             "instagram": ""
         },        
         "descripción": {
-            "img": "./img/01_clubZeballos.jpg",
+            "img": "../assets/img/01_clubZeballos.jpg",
             "cantidad_canchas": "3",
             "cancha_techada":"true",
             "superficie":"cesped sintetico",
@@ -273,8 +274,9 @@
     },
     {
         "id": "8",
+        "nombre": "Napoles",
         "direccion":{
-            "partido": "Napoles", 
+            "partido": "Florencio Varela", 
             "localidad": "Florencio Varela", 
             "calle": "Eva Peron 2250"
         },
@@ -285,7 +287,7 @@
             "instagram": "https://www.instagram.com/napolesco"
         },        
         "descripción": {
-            "img": "./img/01_Napoles.jpg",
+            "img": "../assets/img/01_Napoles.jpg",
             "cantidad_canchas": "",
             "cancha_techada":"true",
             "superficie":"cesped sintetico",
@@ -312,8 +314,9 @@
     },
     {
         "id": "9",
+        "nombre": "Fair Play",
         "direccion":{
-            "partido": "Fair Play", 
+            "partido": "Florencio Varela", 
             "localidad": "Florencio Varela", 
             "calle": "Dr.Pedro Bourel 3387"
         },
@@ -324,7 +327,7 @@
             "instagram": "https://www.instagram.com/fairplayfutbol1/?hl=es"
         },        
         "descripción": {
-            "img": "./img/01_fairplay.png",
+            "img": "../assets/img/01_fairplay.png",
             "cantidad_canchas": "1",
             "cancha_techada":"false",
             "superficie":"cesped sintetico",
@@ -363,7 +366,7 @@
             "instagram": ""
         },        
         "descripción": {
-            "img": "./img/01_clubZeballos.jpg",
+            "img": "../assets/img/01_clubZeballos.jpg",
             "cantidad_canchas": "2",
             "cancha_techada":"false",
             "superficie":"cesped sintetico",

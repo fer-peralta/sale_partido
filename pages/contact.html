@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <script defer src="../assets/js/index.js"></script>
+    <script defer src="../assets/js/variables.js"></script>
+    <script defer src="../assets/js/fields_functions.js"></script>
     <script defer src="https://kit.fontawesome.com/ac77221c7b.js" crossorigin="anonymous"></script>
     <title>Contacto</title>
 </head>
@@ -33,12 +35,12 @@
         </div>
         <h1>Contacto</h1>
         <form action="POST">
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido">
-            <input type="email" placeholder="Em@il">
-            <input type="number" placeholder="Teléfono">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" class="send">
+            <input type="text" placeholder="Nombre" id="contactName">
+            <input type="text" placeholder="Apellido" id="contactSurname">
+            <input type="email" placeholder="Em@il" id="contactEmail">
+            <input type="number" placeholder="Teléfono" id="contactTelephone">
+            <textarea name="" id="" cols="30" rows="10" id="contactTextarea"></textarea>
+            <input type="submit" class="send" id="contactSubmit">
         </form>
     </main>
 </body>

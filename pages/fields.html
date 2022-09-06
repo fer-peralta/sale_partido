@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="../assets/js/variables.js"></script>
+    <script defer src="../assets/js/fields_functions.js"></script>
     <script defer src="../assets/js/index.js"></script>
     <script defer src="https://kit.fontawesome.com/ac77221c7b.js" crossorigin="anonymous"></script>
     <title>Canchas</title>
@@ -30,9 +32,6 @@
         </ul>
     </nav>
     <main>
-        <!-- <div class="hero_container">
-            <img src="../assets/img/pages/contact_hero.jpg" alt="hero_image">
-        </div> -->
         <!--slider  -->
         <div class="swiper">
           <!-- Additional required wrapper -->
@@ -54,25 +53,18 @@
           <div class="swiper-scrollbar"></div>
         </div>
         <!--slider  -->
+
         <h1>Encontra tu cancha</h1>
 
         <form action="">
-          <input type="search" placeholder="Nombre de cancha">
-          <input type="text" placeholder="Ubicación">
-          <input type="text" placeholder="Tipo de cancha">
-          <input type="submit" class="btn_submit">
+          <input type="search" placeholder="Nombre de cancha" id="fieldName">
+          <input type="text" placeholder="Ubicación" id="fieldLocation">
+          <input type="text" placeholder="Tipo de cancha" id="fieldType">
+          <input type="submit" class="btn_submit" id="fieldSubmit">
         </form>
-        <div id="fields_container">
-          <article>
-            <img src="../assets/img/01_planeta_gol.jpg" alt="#">
-            <div class="field_description">
-              <h3 class="field_name">Planeta Gol</h3>
-              <p class="field_location">Av Bombero Voluntario V. Senzabello 2080</p>
-              <p class="field_location">Florencio Varela</p>
-            </div>
-          </article>
+        <div id="fieldsContainer">
+        
         </div>
-
     </main> 
 </body>
 </html>

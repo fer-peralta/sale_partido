@@ -95,13 +95,12 @@ a {
 
 .fields_body {
   background-color: bgcolor; }
-  .fields_body main div.hero_container {
-    height: 150px; }
-    .fields_body main div.hero_container img {
-      height: 150px;
+  .fields_body main .swiper {
+    width: 100%;
+    height: 250px; }
+    .fields_body main .swiper .imgCarrousel {
       width: 100%;
-      object-fit: cover;
-      opacity: 0.9; }
+      height: 250px; }
   .fields_body main h1 {
     margin-top: 20px;
     text-align: center;
@@ -126,30 +125,25 @@ a {
       font-weight: bold;
       padding: 5px;
       width: 100px; }
-  .fields_body main div#fields_container article {
+  .fields_body main div#fieldsContainer article {
     margin-top: 35px;
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .fields_body main div#fields_container article img {
+    .fields_body main div#fieldsContainer article img {
       width: 300px;
       height: 170px;
       border-radius: 10px; }
-    .fields_body main div#fields_container article div.field_description {
+    .fields_body main div#fieldsContainer article div.field_description {
       margin-top: 10px; }
-      .fields_body main div#fields_container article div.field_description h3 {
+      .fields_body main div#fieldsContainer article div.field_description h3 {
         text-align: center; }
-      .fields_body main div#fields_container article div.field_description p {
+      .fields_body main div#fieldsContainer article div.field_description p {
         font-size: calc(8px + 1vh); }
 
 .swiper {
-  width: 100%;
-  height: 250px; }
-.imgCarrousel{
-  width: 100%;
-  height: 250px;
-}
-
+  width: 150px;
+  height: 150px; }
 
 .contact_body {
   background-color: bgcolor; }

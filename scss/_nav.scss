@@ -16,14 +16,14 @@
 /*Nav Mobile*/
 .nav_container{
 
-  display:flex;
-  justify-content: space-around;
-  background-color: $nav_bar;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border: 3px solid #407a47;
-  border-radius: 15px 15px 0 0;
+    display:flex;
+    justify-content: space-around;
+    background-color: $nav_bar;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 3px solid #407a47;
+    border-radius: 15px 15px 0 0;
 
     .ul_nav{
         display: flex;

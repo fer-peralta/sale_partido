@@ -1,6 +1,8 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-  
+    loop: true,
+    autoplay: true,
+
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
@@ -18,3 +20,5 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+  cargaBaseDatos(database)
