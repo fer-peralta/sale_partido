@@ -1,0 +1,8 @@
+#Ignore Node
+node_modules
+
+#Ignore enviroment variables
+*.env
+
+#Visual Studio Code config
+.vscode
